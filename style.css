@@ -1,7 +1,7 @@
   
   body {
     font: 13px "Source Sans Pro", Arial, Helvetica, sans-serif;
-    background-color:rgba(2,12,27);
+    background-color:#0A1930;
     color: #fff;
     text-align: center;
   }
@@ -60,7 +60,7 @@ h1.ml8 {
 .ml8 .circle-dark {
   width: 2.2em;
   height: 2.2em;
-  background-color: rgba(2,12,27) ;
+  background-color:#0A1930;
   border-radius: 3em;
   z-index: 1;
 }

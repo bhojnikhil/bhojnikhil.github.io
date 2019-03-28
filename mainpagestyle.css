@@ -4,12 +4,14 @@ body {
     color:#8892b0;
     text-align: center;
   }
+
+
 .navbar-toggler{
-	background-color: #ffff
+	background-color: #ffff;
 }
 
 .navbar-brand{
-	background-color: #0000
+	background-color: #0000;
 }
 
 
@@ -18,3 +20,25 @@ body {
 }
 
 
+
+.navbar{
+ 	background-color:#0A1930;
+ }
+.navbar-toggler-icon{
+	background-color: #0000;
+}
+
+.nav-link{
+	color:rgb(100, 255, 218);
+
+}
+
+.navbar-brand{
+	color:rgb(100, 255, 218);	
+	font-size:40px;
+}
+
+.navbar-nav{
+	margin-left: auto;
+	font-size: 15px;
+}
