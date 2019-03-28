@@ -24,6 +24,7 @@ body {
 .navbar{
  	background-color:#0A1930;
  	padding: 2px;
+
  }
 .navbar-toggler-icon{
 	background-color: #0000;
@@ -43,4 +44,10 @@ body {
 .navbar-nav{
 	margin: 0px;
 	font-size: 15px;
+}
+
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
 }
