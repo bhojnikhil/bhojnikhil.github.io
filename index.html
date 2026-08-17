@@ -103,15 +103,29 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2012 - 2015</h4>
-                  <h4 class="subheading">Masters in Computer Applications</h4>
+                  <h4>2009 - 2012</h4>
+                  <h4 class="subheading">Bachelor of Computer Applications</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">JSS Science and Technology University</p>
+                  <p class="text-muted">University of Mysore, Mysuru, India &mdash; where it started.</p>
                 </div>
               </div>
             </li>
             <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2012 - 2015</h4>
+                  <h4 class="subheading">Master of Computer Applications</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">JSS Science and Technology University, Mysuru, India</p>
+                </div>
+              </div>
+            </li>
+            <li>
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
               </div>
@@ -125,7 +139,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
               </div>
@@ -139,7 +153,7 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li>
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
               </div>
@@ -153,9 +167,9 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                <h4>Currently</h4>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -163,21 +177,7 @@
                   <h4 class="subheading">Senior Software Engineer at Cedar</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Austin, TX &mdash; payments infrastructure and the pre-visit patient experience platform.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Currently</h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2022 - Present</h4>
-                  <h4 class="subheading">Ph.D. in Information Technology</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">University of the Cumberlands &mdash; in progress alongside full-time engineering.</p>
+                  <p class="text-muted">Austin, TX &mdash; payment infrastructure and the pre-visit patient experience platform.</p>
                 </div>
               </div>
             </li>
@@ -204,12 +204,13 @@
           </span>
           <h4 class="service-heading">Senior Software Engineer</h4>
           <h6 class="service-heading">Cedar, Austin TX (Nov 2021 - Present)</h6>
-          <p class="text-muted">&bull; Build and operate payment infrastructure handling roughly $5B in patient payments annually</p>
-          <p class="text-muted">&bull; Architected and optimized Stripe payment processing, eliminating redundant API calls and cutting costs by over $100K annually</p>
-          <p class="text-muted">&bull; Designed and delivered end-to-end integration with HealthEquity, Cedar's largest health benefit accounts partner, enabling a new payment channel that drives millions of dollars in annual collections</p>
+          <p class="text-muted">&bull; Build and operate payment infrastructure for a healthcare billing platform serving 50M+ patients and processing $3.3B in patient payments annually</p>
+          <p class="text-muted">&bull; Architected Cedar's vendor-agnostic payment gateway, decoupling billing and collections flows from individual processors behind a uniform dispatch interface. Built Stripe as the first implementation; later processors were added without changes to calling code</p>
+          <p class="text-muted">&bull; Optimized Stripe payment processing by eliminating redundant API calls, reducing processing costs by over $100K annually</p>
+          <p class="text-muted">&bull; Decomposed the payments monolith into event-driven microservices, enabling independent scaling of payment-critical workloads</p>
+          <p class="text-muted">&bull; Designed and delivered end-to-end integration with HealthEquity, Cedar's largest health benefit accounts partner, opening a payment channel that drives millions of dollars in annual collections</p>
           <p class="text-muted">&bull; Own the pre-visit patient experience platform, introducing ML-driven OCR for insurance card capture that accelerated eligibility verification across health system clients</p>
-          <p class="text-muted">&bull; Built an ML-powered payer fax automation pipeline (OCR + Naive Bayes) for prior authorization processing, reducing agent case time by up to 70%</p>
-          <p class="text-muted">&bull; Decomposed a monolithic client-server architecture into event-driven microservices, enabling independent scaling of payment-critical workloads</p>
+          <p class="text-muted">&bull; Built an ML-powered payer fax automation pipeline (OCR + Naive Bayes) for prior authorization, reducing agent case time by up to 70%</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -218,10 +219,12 @@
           </span>
           <h4 class="service-heading">Software Engineer</h4>
           <h6 class="service-heading">Actium Health, Austin TX (Jul 2019 - Nov 2021)</h6>
-          <p class="text-muted">&bull; Designed a high-throughput patient outreach platform on Twilio powering SMS campaigns across 14M patient lives, contributing to 1,395 early breast cancer diagnoses</p>
-          <p class="text-muted">&bull; Built ETL pipelines in Apache Airflow processing sensitive healthcare data from client SFTPs under HIPAA constraints</p>
-          <p class="text-muted">&bull; Architected a standardized provider data export service powering external physician directories for multiple health system clients</p>
-          <p class="text-muted">&bull; Led a distributed offshore engineering team as engineering manager, consistently delivering cross-functional projects on schedule</p>
+          <p class="text-muted">&bull; Designed a high-throughput patient outreach platform on Twilio powering bulk SMS campaigns across 14M patient lives, contributing to 1,395 early breast cancer diagnoses</p>
+          <p class="text-muted">&bull; Built Apache Airflow ETL pipelines ingesting sensitive healthcare data from client SFTPs, normalizing records across inconsistent source schemas under HIPAA constraints</p>
+          <p class="text-muted">&bull; Architected the standardized provider data export service powering external physician directories for all health system clients, processing millions of records daily</p>
+          <p class="text-muted">&bull; Developed microservices across AWS Lambda, Flask, and Django supporting outreach, data ingestion, and client-facing data products</p>
+          <p class="text-muted">&bull; Automated new client provisioning, replacing a manual setup process and reducing onboarding time for new health system clients</p>
+          <p class="text-muted">&bull; Led a distributed offshore team of 5 engineers and served as scrum master, delivering cross-functional projects on schedule</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -230,8 +233,10 @@
           </span>
           <h4 class="service-heading">Software Engineer</h4>
           <h6 class="service-heading">Accenture, Bengaluru India (Oct 2015 - Jul 2017)</h6>
-          <p class="text-muted">&bull; Built financial web applications in ReactJS and AngularJS for enterprise clients</p>
-          <p class="text-muted">&bull; Owned features end-to-end from design through production deployment</p>
+          <p class="text-muted">&bull; Built financial web applications in ReactJS and AngularJS for enterprise clients, owning features end-to-end from design through production deployment</p>
+          <p class="text-muted">&bull; Developed and consumed REST and SOAP web services connecting front-end applications to backend financial systems</p>
+          <p class="text-muted">&bull; Maintained customer relationship management databases in MySQL and PostgreSQL</p>
+          <p class="text-muted">&bull; Worked directly with client stakeholders to triage production issues and ship enhancements within an agile delivery process</p>
         </div>
       </div>
     </div>
@@ -253,11 +258,11 @@
         </div>
         <div class="col-md-4 mb-5">
           <h4 class="service-heading text-uppercase">Frameworks</h4>
-          <p class="text-muted">React, Flask, Django, Node.js, gRPC, Serverless</p>
+          <p class="text-muted">React, Flask, Django, Node.js, SQLAlchemy, gRPC, Serverless</p>
         </div>
         <div class="col-md-4 mb-5">
           <h4 class="service-heading text-uppercase">Payments &amp; Integrations</h4>
-          <p class="text-muted">Stripe, PayPal, Twilio, TokenEx, TrustCommerce</p>
+          <p class="text-muted">Stripe, PayPal, TrustCommerce, Twilio, TokenEx</p>
         </div>
       </div>
       <div class="row text-center">
@@ -267,11 +272,11 @@
         </div>
         <div class="col-md-4 mb-5">
           <h4 class="service-heading text-uppercase">Cloud &amp; Infrastructure</h4>
-          <p class="text-muted">AWS, Docker, Airflow, Harness, Datadog, Sentry</p>
+          <p class="text-muted">AWS (Lambda), Docker, Kubernetes, Airflow, Harness, Datadog, Sentry</p>
         </div>
         <div class="col-md-4 mb-5">
           <h4 class="service-heading text-uppercase">ML &amp; Data</h4>
-          <p class="text-muted">Anomaly Detection, OCR, Naive Bayes, ETL, Looker</p>
+          <p class="text-muted">OCR, Naive Bayes, Anomaly Detection, ETL, Looker</p>
         </div>
       </div>
     </div>
@@ -283,7 +288,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Get In Touch</h2>
-          <h3 class="section-subheading text-muted">bhoj.nikhil@gmail.com<br>972-948-8096<br>Liberty Hill, TX</h3>
+          <h3 class="section-subheading text-muted">bhoj.nikhil@gmail.com<br>972-948-8096<br>Austin, TX</h3>
         </div>
       </div>
       <div class="row">
